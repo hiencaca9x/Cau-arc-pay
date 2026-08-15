@@ -10,7 +10,7 @@ import {
   RefreshCw,
   ShieldCheck,
   Sparkles,
-  Languages,
+  Globe,
 } from "lucide-react";
 
 const C = {
@@ -351,7 +351,8 @@ export default function CauApp() {
             style={{ background: C.card, border: `1px solid ${C.line}`, color: C.inkSoft }}
             aria-label="Switch language"
           >
-            <Languages size={13} />
+            <Globe size={13} />
+
             {lang === "vi" ? "EN" : "VI"}
           </button>
 
